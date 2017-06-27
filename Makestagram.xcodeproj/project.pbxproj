@@ -32,6 +32,7 @@
 		BAE51FDA1F02EC7200FCFFF6 /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE51FD91F02EC7200FCFFF6 /* UIImage+Size.swift */; };
 		BAE51FDC1F02ED2E00FCFFF6 /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE51FDB1F02ED2E00FCFFF6 /* StorageReference+Post.swift */; };
 		BAE51FDE1F02EF3500FCFFF6 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE51FDD1F02EF3500FCFFF6 /* Home.storyboard */; };
+		BAE51FE01F02F90800FCFFF6 /* PostImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE51FDF1F02F90800FCFFF6 /* PostImageTableViewCell.swift */; };
 		C4271E24606DF99D637AF202 /* Pods_MakestagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59EA9DFB8301BB716406BE12 /* Pods_MakestagramUITests.framework */; };
 		ED281E9F5CDA21973C220192 /* Pods_MakestagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB8E6125326E0D13043D5EF /* Pods_MakestagramTests.framework */; };
 /* End PBXBuildFile section */
@@ -90,6 +91,7 @@
 		BAE51FD91F02EC7200FCFFF6 /* UIImage+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Size.swift"; path = "Extensions/UIImage+Size.swift"; sourceTree = "<group>"; };
 		BAE51FDB1F02ED2E00FCFFF6 /* StorageReference+Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "StorageReference+Post.swift"; path = "Extensions/StorageReference+Post.swift"; sourceTree = "<group>"; };
 		BAE51FDD1F02EF3500FCFFF6 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = Storyboards/Home.storyboard; sourceTree = "<group>"; };
+		BAE51FDF1F02F90800FCFFF6 /* PostImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostImageTableViewCell.swift; path = Views/PostImageTableViewCell.swift; sourceTree = "<group>"; };
 		D51507A8452AAC8CD853D724 /* Pods-MakestagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakestagramUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MakestagramUITests/Pods-MakestagramUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E89E4EC17E8F7AA92D9FAB5E /* Pods-MakestagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakestagramTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MakestagramTests/Pods-MakestagramTests.release.xcconfig"; sourceTree = "<group>"; };
 		F123CED8235DD43FD7DE9A98 /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				BA9E5A581F01650400AFCA01 /* Assets.xcassets */,
 				BAE51FBB1F01998000FCFFF6 /* Models */,
 				BAE51FC91F02BA7800FCFFF6 /* Extensions */,
+				BAE51FE11F02F90E00FCFFF6 /* Views */,
 			);
 			path = Makestagram;
 			sourceTree = "<group>";
@@ -270,6 +273,14 @@
 				BAE51FD01F02DCCB00FCFFF6 /* MGPhotoHelper.swift */,
 			);
 			name = Helpers;
+			sourceTree = "<group>";
+		};
+		BAE51FE11F02F90E00FCFFF6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BAE51FDF1F02F90800FCFFF6 /* PostImageTableViewCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -561,6 +572,7 @@
 			files = (
 				BAE51FBA1F01997C00FCFFF6 /* User.swift in Sources */,
 				BAE51FD41F02E2AA00FCFFF6 /* StorageService.swift in Sources */,
+				BAE51FE01F02F90800FCFFF6 /* PostImageTableViewCell.swift in Sources */,
 				BA9E5A941F01716000AFCA01 /* LoginViewController.swift in Sources */,
 				BAE51FCF1F02DA9400FCFFF6 /* MainTabBarController.swift in Sources */,
 				BAE51FC21F02B19000FCFFF6 /* UserService.swift in Sources */,
